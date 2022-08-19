@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Basketball Counter</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="left">
+            <h1>HOME</h1>
+            <div class="board">
+                <span id="zeroHome">zero</span>
+            </div>
+            <div class="buttons">
+                <button id="oneHome" onclick="homeOne()">+1</button>
+                <button id="twoHome" onclick="homeTwo()">+2</button>
+                <button id="threeHome" onclick="homeThree()">+3</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <h1>GUEST</h1>
+            <div class="board">
+                <span id="zeroGuest">zero</span>
+            </div>
+            <div class="buttons none">
+                <button id="oneGuest" onclick="guestOne()">+1</button>
+                <button id="twoGuest" onclick="guestTwo()">+2</button>
+                <button id="threeGuest" onclick="guestThree()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
